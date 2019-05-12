@@ -1,0 +1,52 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-image: url("../images/cityskyline.jpg");
+}
+
+nav {
+    background-color: grey;
+}
+
+.brand-logo{
+    margin-left: 15%;
+}
+
+#portfolioLink {
+    font-size:130%;
+    margin-right: 190px;
+}
+#aboutMeLink {
+    font-size:130%;
+}
+
+#cardText {
+    padding: 10%;
+}
+
+.block-header {
+    font-size:350%;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+#about-image {
+ border-radius: 30px;
+ float:left;
+ padding-right: 15px;
+}
+
+
+.page-footer {
+    background-color: grey;
+    padding-top: 5px;
+}
+
+#footer {
+    text-align: center;
+}
+
+
+
+
+
+
