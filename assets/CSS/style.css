@@ -1,26 +1,19 @@
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    background-image: url("../images/cityskyline.jpg");
+    background-image: url("../images/tokyo.jpg");
 }
 
 nav {
-    background-color: grey;
+    background-color: rgb(207, 113, 207);
 }
 
 .brand-logo{
-    margin-left: 15%;
+    margin-left: 500px;
 }
 
-#portfolioLink {
-    font-size:130%;
-    margin-right: 190px;
-}
-#aboutMeLink {
-    font-size:130%;
-}
 
 #cardText {
-    padding: 10%;
+    padding: 5%;
 }
 
 .block-header {
@@ -30,20 +23,34 @@ nav {
 }
 
 #about-image {
- border-radius: 30px;
+ border-radius: 15px 70px; 
  float:left;
  padding-right: 15px;
 }
 
-
-.page-footer {
-    background-color: grey;
-    padding-top: 5px;
+a.btn{
+    background-color: rgb(207, 113, 207);
+    border-radius: 15px 70px; 
 }
 
-#footer {
-    text-align: center;
+p.aboutMe {
+    float: right;
+    border-radius: 15px 70px; 
+    background-image: linear-gradient(pink, purple);
+    color: white;
+    width:70%;
+    padding: 20px;
 }
+
+div.contactInfo {
+    float: left;
+    border-radius: 15px 70px; 
+    background-image: linear-gradient(pink, purple);
+    color: white;
+    width:50%;
+    padding: 20px;
+}
+
 
 
 
