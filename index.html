@@ -39,13 +39,15 @@
 
     <!--About Me photo & section-->
     <main class="container">
-        <section class="row">
-            <div class="col l6 s12">
+        <section class="row parallaxContainer">
+            <div class="col">
                 <article class="block">
                     <h1 class="block-header">Welcome!</h1>
-                    <hr />
+                    <hr/>
                     <img src="assets/images/beatriznyc.jpg" alt="photo of author" id="about-image" />
                 </article>
+            </div>
+            <div class="col navButtons">
                 <div><a class="waves-effect waves-light btn" href="#aboutMeJump">About Me</a></div><br>
                 <div><a class="waves-effect waves-light btn" href="#portfolioJump">Portfolio</a></div><br>
                 <div><a class="waves-effect waves-light btn" href="#contactJump">Contact</a></div>
@@ -54,10 +56,16 @@
     </main>
 
 
+
+
+    <div class="parallax"></div>
     <div class="container aboutMe">
         <div class="row">
-            <div class="col 4">
-                <div class="col s9 offset-s3">
+                <div class="col">    
+                    <h1 class="block-header introHeader">Intro</h1>
+ 
+                </div>
+            <div class="col">
                     <p class="aboutMe" style="font-size:120%"><a id="aboutMeJump"></a>My name is Beatriz A. Renderos and
                         I am currently enrolled in Coding Boot Camp offered by the University of Central Florida's
                         Continuing Education Department. From learning how create an appealing and user-friendly webpage
@@ -67,11 +75,14 @@
                         technology and the different ways it can be used to advance society, or simply make life more
                         convenient.
                     </p>
-                </div>
             </div>
         </div>
     </div>
 
+
+
+
+    <div class="parallax"></div>
     <!--Meal Spot-->
     <div class="container">
         <div class="row">
@@ -86,6 +97,8 @@
                                 class="material-icons right">more_vert</i></span>
                         <p>Click on photo to learn more!</p> <br>
                         <p><a href="https://tywilliams7.github.io/MealSpot/" target="_blank">View Project</a></p>
+                        <p><a href="https://github.com/Tywilliams7/MealSpot.git" target="_blank">View Github Code</a></p>
+
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Meal Spot App<i
@@ -101,31 +114,38 @@
                 </div>
             </div>
 
-            <!--Crystal Collector-->
+            <!--Mr.Fix-It-->
             <div class="col s3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/crystal.jpg" alt="crystal">
+                        <img class="activator" src="assets/images/logoDark.jpg" alt="Mr. Fix-It logo">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><strong>Numbers' Game</strong><i
+                        <span class="card-title activator grey-text text-darken-4"><strong>Mr. Fix-It App</strong><i
                                 class="material-icons right">more_vert</i></span>
                         <p>Click on photo to learn more!</p> <br>
-                        <p><a href="https://beatriz03.github.io/Crystal-Collector-Game/" target="_blank">View Project</a></p>
+                        <p><a href="https://mr-fixit.herokuapp.com/" target="_blank">View Project</a></p>
+                        <p><a href="https://github.com/Mgncoding/Project-2.git" target="_blank">View Github Code</a></p>
+
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Numbers' Game<i
+                        <span class="card-title grey-text text-darken-4">Mr. Fix-It App<i
                                 class="material-icons right">close</i></span>
-                        <p style="font-size:100%" id="cardText">A fun and challenging game, this project utilizes JavaScript and Jquery to dynamically manipulate HTML. The styling was done with HTML, CSS, and Bootstrap.
+                        <p style="font-size:100%" id="cardText">An app designed to take the guesswork out of car maintenance and repair. Simply enter your car's information and Mr. Fix-It will tell you the suggested maintenance based on your mileage and even suggest mechanic depending on your location.
                         </p>
                     </div>
                 </div>
             </div>
+
+            <div class="col s3">
+                    <h1 class="block-header portfolioHeader">Portfolio</h1>
+            </div>
+
         </div>
     </div>
 
 
-
+    <div class="parallax"></div>
     <!--Train-->
     <div class="container">
         <div class="row">
@@ -140,6 +160,8 @@
                                     Scheduler</strong><i class="material-icons right">more_vert</i></span>
                             <p>Click on photo to learn more!</p> <br>
                             <p><a href="https://beatriz03.github.io/train-u7/" target="_blank">View Project</a></p>
+                            <p><a href="https://github.com/beatriz03/train-u7.git" target="_blank">View Github Code</a></p>
+
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Train Scheduler<i
@@ -165,6 +187,7 @@
                                     class="material-icons right">more_vert</i></span>
                             <p>Click on photo to learn more!</p> <br>
                             <p><a href="https://beatriz03.github.io/Giftastic-U6/" target="_blank">View Project</a></p>
+                            <p><a href="https://github.com/beatriz03/Giftastic-U6.git" target="_blank">View Github Code</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Giphy API<i
@@ -177,24 +200,90 @@
                     </div>
                 </div>
             </div>
+            <div class="col s6">            
+                <h1 class="block-header portfolioHeader2">Portfolio</h1>
+            </div>
+
+
         </div>
     </div>
 
+
+
+
+
+    <div class="parallax"></div>
+   <!--LIRI Bot-->
+   <div class="container">
+    <div class="row">
+        <div class="col s3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/images/Bot.jpg" alt="Meal Spot logo">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><strong>LIRI Bot</strong><i
+                            class="material-icons right">more_vert</i></span>
+                    <p>Click on photo to learn more!</p> <br>
+                    <p><a href="https://beatriz03.github.io/liri-node-app/" target="_blank">View Project</a></p>
+                    <p><a href="https://github.com/beatriz03/liri-node-app.git" target="_blank">View Github Code</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">LIRI Bot<i
+                            class="material-icons right">close</i></span>
+                    <p style="font-size:100%" id="cardText">LIRI is a spin on the well-known SIRI. Meaning Language Interpretation & Recognition Interface, LIRI responds to four specific commands. Ask LIRI to find a song with spotify, a movie, a concert, or your favorite band! Click 'View Project' to see the code.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Crystal Collector-->
+        <div class="col s3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/images/crystal.jpg" alt="crystal">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><strong>Numbers' Game</strong><i
+                            class="material-icons right">more_vert</i></span>
+                    <p>Click on photo to learn more!</p> <br>
+                    <p><a href="https://beatriz03.github.io/Crystal-Collector-Game/" target="_blank">View Project</a></p>
+                    <p><a href="https://github.com/beatriz03/Crystal-Collector-Game.git" target="_blank">View Github Code</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Numbers' Game<i
+                            class="material-icons right">close</i></span>
+                    <p style="font-size:100%" id="cardText">A fun and challenging game, this project utilizes JavaScript and Jquery to dynamically manipulate HTML. The styling was done with HTML, CSS, and Bootstrap.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s3">
+                <h1 class="block-header portfolioHeader">Portfolio</h1>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="parallax"></div>
     <!-- Contact Information -->
     <div class="container">
+        <div class='row'>>
         <a id="contactJump">
             <div class="row contactInfo">
                 <div class="col 7">
                     <div class="col s7">
-                        <h5 class="white-text">Contact Me:</h5>
+                        <h5 class="white-text">Connect with Me:</h5>
                         <p class="grey-text text-lighten-3">By Phone: (407) 864-2523<i
                                 class="material-icons">local_phone</i></p>
                         <p class="grey-text text-lighten-3">By Email: renderosb@gmail.com<i
                                 class="material-icons">mail</i>
                         </p>
 
-                        <!-- Project #2: Mr. Fix-It -->
-                        <a class="grey-text text-lighten-3" href="https://mr-fixit.herokuapp.com/" target="_blank">View My Latest Project!<i class="material-icons">call_made</i></a>
+                        <!-- Latest Project -->
+                        <!-- <a class="grey-text text-lighten-3" href="https://mr-fixit.herokuapp.com/" target="_blank">View My Latest Project!<i class="material-icons">call_made</i></a> -->
                     </div>
         </a>
         
@@ -207,7 +296,7 @@
                         target="_blank">Linkedin<i class="material-icons">person_add</i></a></li>
                 <li><a class="grey-text text-lighten-3" href="https://github.com/beatriz03" target="_blank">GitHub<i
                             class="material-icons">pageview</i></a></li>
-                <li><a class="grey-text text-lighten-3" href="file:///C:/Users/rende/Downloads/Resume.pdf#page=1"
+                <li><a class="grey-text text-lighten-3" href="file:///C:/Users/rende/Downloads/Resume.pdf"
                         target="_blank">View Resume<i class="material-icons">assignment</i></a></li>
 
             </ul>
@@ -217,9 +306,13 @@
 
     <div><a class="waves-effect waves-light btn" href="#topOfPage">Back To Top of Page</a></div>
 
+</div>
+        <div class="col s3">
+                <h1 class="block-header contactHeader">Contact</h1>
+        </div>
 
 
-    <!-- JQuery-->
+    <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Materialize JavaScript -->

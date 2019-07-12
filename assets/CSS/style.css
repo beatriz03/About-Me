@@ -1,6 +1,6 @@
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    background-image: url("../images/tokyo.jpg");
+    /* background-image: url("../images/tokyo.jpg"); */
 }
 
 nav {
@@ -33,27 +33,60 @@ a.btn{
     border-radius: 15px 70px; 
 }
 
+.navButtons {
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
 p.aboutMe {
     float: right;
     border-radius: 15px 70px; 
     background-image: linear-gradient(pink, purple);
     color: white;
     width:70%;
-    padding: 20px;
+    padding: 22px;
 }
 
 div.contactInfo {
-    float: left;
+    float: right;
     border-radius: 15px 70px; 
     background-image: linear-gradient(pink, purple);
     color: white;
     width:50%;
     padding: 20px;
+    margin-top:10px;
+}
+
+
+.portfolioHeader {
+    margin-left:50%;
+}
+
+.portfolioHeader2 {
+    margin-right:50%;
 }
 
 
 
 
+.parallax { 
+    /* The image used */
+    background-image: url("../images/architecture-buildings-city-169647.jpg");
+  
+    /* Set a specific height */
+    height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+/* .parallaxContainer {
+    background: rgb(250, 252, 250, .9)
+    width: 100px;
+
+} */
 
 
